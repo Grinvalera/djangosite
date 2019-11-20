@@ -18,7 +18,7 @@ from django.conf.urls import url, include
 from . import views
 
 urlpatterns = [
-    url(r'^frontend', views.html1, name='html1'),
-    url(r'^dop', views.html2, name='html2'),
+    url(r'^frontend', views.landing, name='landing'),
+    # url(r'^dop', views.html2, name='html2'),
 
 ]

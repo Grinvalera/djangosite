@@ -25,12 +25,14 @@ SECRET_KEY = '&oy)n2^zarld^^u!$5gtcs$&m40=$=btc^=8zu+b6l5wo71mv1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['82fde891.ngrok.io']
+ALLOWED_HOSTS = ['75126545.ngrok.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'django_site',
+    'frontend',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
