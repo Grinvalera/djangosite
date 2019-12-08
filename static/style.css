@@ -7,11 +7,11 @@ html, body{
     padding-top: 10%;
 }
 .general-container{
-    background: url("img/2.jpg");
+    background: url("img/4.jpg");
     height: 700px;
 }
 .title{
-    color: darkred;
+    color: indianred;
     text-align: center;
     font-weight: 100;
     line-height: 50px;

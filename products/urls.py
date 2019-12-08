@@ -15,13 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url, include
-
-admin.autodiscover()
+from . import views
 
 urlpatterns = [
-    url('admin/', admin.site.urls),
-    url(r'^', include('frontend.urls')),
-    url(r'^', include('products.urls')),
-    url(r'^', include('orders.urls')),
+    # url(r'^frontend', views.landing, name='landing'),
+    # url(r'^dop', views.html2, name='html2'),
 
 ]

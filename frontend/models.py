@@ -9,3 +9,7 @@ class Subscribers(models.Model):
 
     def __str__(self):
         return f'{self.email}'
+
+    class Meta:
+        verbose_name = 'Подписчик'
+        verbose_name_plural = 'Подписчики'
